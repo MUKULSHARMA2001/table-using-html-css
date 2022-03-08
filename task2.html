@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/task2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr{
+            height:50px;
+        }
+    </style>
+</head>
+<body>
+    <!--Table of invoice-->
+    <table class="table" border="1"> 
+        <!--table heading with description-->
+        <thead> 
+            <tr class="backgroundcolor"> 
+                <th colspan="3" ><p>Invoice #123456789</p></th> 
+                <th width="164px"><p>14 January 2025</p> </tr> 
+                    <tr> 
+                        <td colspan="2"> 
+                            <p><strong>Pay to:</strong><br></p> 
+                            <p>Acme Billing Co.</p>
+                            <p>123 Main St.</p> 
+                            <p>Cityville, NA 12345</p> </td>
+                             <td colspan="2"> <p> <strong>Customer:</strong></p> 
+                              <p>  John Smith</p>
+                               <p> 321 Willow Way</p> 
+                               <p> Southeast Northwestershire, MA 54321 </p>
+                                </td> 
+                                </tr>
+                             </thead> 
+                             <!--Table body description-->
+                                <tbody> 
+                                    <tr class="backgroundcolor"> 
+                                        <th><p>Name / Description</p></th> 
+                                        <th width="170px"><p>Qty.</p></th> 
+                                        <th><p>@</p></th> 
+                                        <th><p>Cost</p></th> 
+                                    </tr> 
+                                    <tr> 
+                                        <td><p>Paperclips</p></td> 
+                                        <td><p>1000</p></td> 
+                                        <td><p>0.01</p></td> 
+                                        <td><p>10.00</p></td> 
+                                    </tr> 
+                                    <tr> 
+                                        <td><p>Staples (box)</p></td> 
+                                        <td><p>100</p></td>
+                                        <td><p>1.00</p></td> 
+                                        <td><p>100.00</p></td> 
+                                    </tr> </tbody> <tfoot> 
+                                        <tr> <th colspan="3" class="backgroundcolor"><p>Subtotal</p></th> 
+                                            <td> <p>110.00</p></td>
+                                         </tr> 
+                                         <tr> 
+                                             <th colspan="2" class="backgroundcolor"><p>Tax</p></th>
+                                              <td> <p>8% </td></td> 
+                                              <td><p>8.80</p></td> 
+                                            </tr> 
+                                            <tr> 
+                                                <th colspan="3" class="backgroundcolor"><p>Grand Total</p></th> 
+                                                <td><p>$ 118.80</p></td> 
+                                            </tr> 
+                                        </tfoot> 
+                                    </table>
+
+</body>
+</html>
